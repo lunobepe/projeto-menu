@@ -36,7 +36,7 @@ public class perfil2 extends AppCompatActivity {
         bt_salvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(perfil2.this, perfil.class);
+                Intent intent = new Intent(perfil2.this, MainActivity.class);
                 intent.putExtra("sobrenome", sobrenome.getText().toString());
                 intent.putExtra("formacao" , formacao.getText().toString());
                 intent.putExtra("telefone" , telefone.getText().toString());

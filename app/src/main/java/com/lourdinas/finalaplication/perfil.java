@@ -36,7 +36,7 @@ public class perfil extends AppCompatActivity {
         bt_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(perfil.this, MainActivity.class);
+                Intent intent = new Intent(perfil.this, perfil2.class);
                 intent.putExtra("nome", nome.getText().toString());
                 startActivity(intent);
                 finish();

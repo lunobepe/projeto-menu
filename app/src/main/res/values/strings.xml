@@ -48,4 +48,14 @@
     <string name="dtnasc">Data de Nascimento</string>
     <string name="idade">Idade</string>
     <string name="salvar">SALVAR</string>
+
+    <string name="apagar">X</string>
+    <string name="btn">*</string>
+    <string name="btnn">#</string>
+    <string name="btn_ligar">Ligar</string>
+    <string name="display">""</string>
+
+
+
+
 </resources>

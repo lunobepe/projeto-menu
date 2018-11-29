@@ -86,6 +86,13 @@ public class MainActivity extends AppCompatActivity
 
             Toast.makeText(getApplicationContext(),
                     "Abrir Calculadora", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.chamadaFalsa) {
+
+            Intent intent = new Intent(MainActivity.this, simuladochamada.class);
+            startActivity(intent);
+
+            Toast.makeText(getApplicationContext(),
+                    "Abrir Simulador de Chamada", Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
