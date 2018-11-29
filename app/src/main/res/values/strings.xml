@@ -35,4 +35,17 @@
     <string name="btnClear">C</string>
     <string name="btnvirgula">,</string>
     <string name="btnigual"> = </string>
+
+    <string name="app_nm">PERFIL</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="login">LOGIN</string>
+    <string name="cadastro">CADASTRO</string>
+
+    <string name="sobrenome">Sobrenome</string>
+    <string name="formacao">Formação</string>
+    <string name="telefone">Telefone</string>
+    <string name="dtnasc">Data de Nascimento</string>
+    <string name="idade">Idade</string>
+    <string name="salvar">SALVAR</string>
 </resources>

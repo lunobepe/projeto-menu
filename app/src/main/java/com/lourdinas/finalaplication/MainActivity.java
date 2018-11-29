@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.configuracao) {
             Toast.makeText(getApplicationContext(),
                     "Abrir configurações", Toast.LENGTH_SHORT).show();
+
         } else if (id == R.id.calcularMedia) {
 
             Intent intent = new Intent(MainActivity.this, calculadoramedia.class);

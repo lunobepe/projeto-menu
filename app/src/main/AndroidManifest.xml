@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".calculadoramedia" />
-        <activity android:name=".calculadora"></activity>
+        <activity android:name=".calculadora" />
+        <activity android:name=".perfil" />
+        <activity android:name=".perfil2"></activity>
     </application>
 
 </manifest>
